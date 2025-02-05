@@ -1,11 +1,15 @@
 
 import './App.css'
+import UserCard from './components/UserCard'
 
 function App() {
   return (
-    <>
-    <h1>Hello My Name is Rahul Kumar</h1>
-    </>
+    <div className='container'>
+    <UserCard/>
+    <UserCard/>
+    <UserCard/>
+
+    </div>
   )
 }
 
