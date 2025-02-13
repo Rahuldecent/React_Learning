@@ -1,5 +1,13 @@
 #user-image{
-    height: 150px;
-    flex-wrap: wrap;
-    gap:20px;
+   height: 200px;
+   border-radius: 100px;
+}
+
+.user-container{
+    background-color: rgb(81, 88, 86);
+    padding: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
 }

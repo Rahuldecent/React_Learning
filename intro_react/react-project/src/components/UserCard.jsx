@@ -1,14 +1,14 @@
 import React from 'react'
 import MaharanaPratap from "../assets/images.jpeg"
 import "./UserCard.css"
-const UserCard = () => {
+const UserCard = (props) => {
     return (
         <div className='user-container'>
-            <p id='user-name'>Rahul Kumar</p>
+            <p id='user-name'>{props.name}</p>
              
             <img id='user-image' src={MaharanaPratap} alt="user-image" />
 
-            <p>Description of Rahul Kumar</p>
+            <p>Description of {props.name}</p>
 
         </div>
     )

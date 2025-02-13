@@ -1,0 +1,21 @@
+.counter-container{
+background-color: white;
+display: flex;
+flex-direction: column;
+gap:15px;
+padding: 1.5rem;
+border: 2px solid black;
+border-radius: 20px;
+box-shadow: 4px 5px 5px black;
+
+}
+
+#btn{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 40%;
+    border-radius: 10px;
+    margin: auto;
+
+}

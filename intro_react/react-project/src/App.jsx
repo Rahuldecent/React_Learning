@@ -5,9 +5,9 @@ import UserCard from './components/UserCard'
 function App() {
   return (
     <div className='container'>
-    {/* <UserCard/> */}
-    <UserCard/>
-    <UserCard/>
+    <UserCard name = "Maharana"/>
+    <UserCard name = "Pratap"/>
+    <UserCard name = "Maharana Pratap"/>
 
     </div>
   )
