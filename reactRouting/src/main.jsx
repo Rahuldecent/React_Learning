@@ -5,9 +5,10 @@ import App from './App.jsx'
 import { BrowserRouter, createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Layout from './Layout.jsx'
 import Home from './components/Home/Home.jsx'
-import About from './components/About/About.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import User from './components/User/User.jsx'
+import Offices from './components/Offices/Offices.jsx'
+import Services from './components/services/Services.jsx'
 
 // const router = createBrowserRouter([
 //   {
@@ -30,9 +31,9 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />
-      <Route path='about' element={<About />} />
+      <Route path='offices' element={<Offices />} />
       <Route path='contact' element={<Contact />} />
-      <Route path='users/:id' element={<User />} />
+      <Route path='services' element= {<Services/>} />
 
     </Route>
   )
